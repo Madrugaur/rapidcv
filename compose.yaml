@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 64000:64000
+    volumes:
+      - ${USER_ZDOTDIR}/Downloads:/root/Downloads
+      - ${USER_ZDOTDIR}/Desktop/rapidcv/cvs:/cvs
