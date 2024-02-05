@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+
+  <body>
+    <div id="popup-content">
+      <div id="title">
+        <h2>RapidCV</h2>
+        <img width="32px" height="32px" id="icon" src="../icons/rapidcv.svg" />
+      </div>
+
+      <form>
+        <input placeholder="Company" id="company_input" type="text" />
+        <input placeholder="Role" id="role_input" type="text" />
+        <button id="generate_cv">Generate</button>
+      </form>
+    </div>
+    <div id="error-content" class="hidden">
+      <p>Can't RapidCV run on this web page.</p>
+      <p>Try a different page.</p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

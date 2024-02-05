@@ -1,0 +1,30 @@
+{
+  "description": "Adds a browser action icon to the toolbar. Click the button to open a menu and rapidly generate a cover letter",
+  "manifest_version": 2,
+  "name": "RapidCV",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "32": "icons/rapidcv_32.png"
+  },
+
+  "permissions": ["activeTab", "http://localhost/*"],
+
+  "browser_action": {
+    "default_icon": "icons/rapidcv_32.png",
+    "theme_icons": [
+      {
+        "light": "icons/rapidcv_32_light.png",
+        "dark": "icons/rapidcv_32.png",
+        "size": 32
+      },
+      {
+        "light": "icons/rapidcv_16_light.png",
+        "dark": "icons/rapidcv_16.png",
+        "size": 16
+      }
+    ],
+    "default_title": "RapidCV",
+    "default_popup": "popup/popup.html"
+  }
+}
