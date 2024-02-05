@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am interested in applying for the open {{role}} position at {{company}}. 
+
+I have extensive experience working with Python and text-processing techniques, which I believe are important
+characteristic of a {{role}} at {{company}}.
+
+You can contact me at (123)456-7890 or email@email.com.
+
+Thank you,
+
+My Name
